@@ -69,7 +69,7 @@ body {
   color: var(--brand-clr);
 }
 
-.current-link {
+.header-link.current {
   color: var(--brand-clr);
 }
 
