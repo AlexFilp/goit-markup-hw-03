@@ -12,7 +12,7 @@
   --brand-clr: #2196f3;
   --main-text-clr: #212121;
   --secondary-text-clr: #757575;
-  --grey-clr: rgba(255, 255, 255, 0.6);
+  --grey-clr-60: rgba(255, 255, 255, 0.6);
 }
 
 /* Global styles */
@@ -166,7 +166,7 @@ body {
 }
 
 .grey-link {
-  color: var(--grey-clr);
+  color: var(--grey-clr-60);
 }
 
 /* PORTFOLIO BUTTONS */
