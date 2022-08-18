@@ -12,6 +12,7 @@
   --brand-clr: #2196f3;
   --main-text-clr: #212121;
   --secondary-text-clr: #757575;
+  --grey-clr: rgba(255, 255, 255, 0.6);
 }
 
 /* Global styles */
@@ -151,7 +152,7 @@ body {
   color: var(--main-bg);
 }
 
-.footer-address-link {
+.footer-link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -159,13 +160,13 @@ body {
   color: var(--main-bg);
 }
 
-.footer-address-link:hover,
-.footer-address-link:focus {
+.footer-link:hover,
+.footer-link:focus {
   color: var(--brand-clr);
 }
 
-.transparency-link {
-  color: rgba(255, 255, 255, 0.6);
+.grey-link {
+  color: var(--grey-clr);
 }
 
 /* PORTFOLIO BUTTONS */
