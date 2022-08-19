@@ -267,6 +267,14 @@ ul {
 
 /* PORTFOLIO LIST */
 
+.portfolio-item {
+  border-bottom: 1px solid #eeeeee;
+}
+
+.portfolio-item:nth-child(-n + 6) {
+  margin-bottom: 30px;
+}
+
 .portfolio-img {
   margin-bottom: 20px;
 }
