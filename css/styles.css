@@ -78,6 +78,7 @@ body {
 .hero-section {
   background-color: var(--secondary-bg);
 }
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
