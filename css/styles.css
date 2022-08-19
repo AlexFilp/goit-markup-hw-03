@@ -64,12 +64,13 @@ ul {
   margin-right: auto;
   margin-left: auto;
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .section {
   padding-top: 94px;
-  padding-left: 215px;
-  padding-right: 215px;
+  padding-bottom: 94px;
 }
 
 /* HEADER  */
@@ -168,7 +169,6 @@ ul {
 /* TEAM */
 
 .team-section {
-  padding-bottom: 94px;
   background-color: var(--special-bg);
 }
 
