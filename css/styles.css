@@ -81,17 +81,13 @@ ul {
   border-bottom: 1px solid #ececec;
 }
 
+.header-container {
+  display: flex;
+}
+
 .header-nav {
   display: flex;
   align-items: center;
-}
-
-.header-list {
-  display: flex;
-}
-
-.header-list .list-item:not(:last-child) {
-  margin-right: 50px;
 }
 
 .header-logo {
@@ -109,6 +105,14 @@ ul {
 
 .accent-logo {
   color: var(--brand-clr);
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-list .list-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .header-list .header-link {
