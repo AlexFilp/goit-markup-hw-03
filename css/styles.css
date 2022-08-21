@@ -64,7 +64,7 @@ ul {
 .container {
   margin-right: auto;
   margin-left: auto;
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -160,6 +160,7 @@ ul {
 
 .hero-container {
   width: 696px;
+  text-align: center;
 }
 
 .hero-title {
@@ -174,16 +175,13 @@ ul {
 }
 
 .hero-btn {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   padding: 10px 32px;
 
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   align-items: center;
-  text-align: center;
+
   letter-spacing: 0.06em;
   color: var(--main-bg);
   background-color: var(--brand-clr);
@@ -209,6 +207,10 @@ ul {
   display: flex;
 }
 
+.features-item {
+  width: 270px;
+}
+
 .features-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -228,7 +230,10 @@ ul {
 
 .work-list {
   display: flex;
-  justify-content: center;
+}
+
+.work-item {
+  width: 370px;
 }
 
 .work-item:not(:last-child) {
@@ -243,7 +248,10 @@ ul {
 
 .team-list {
   display: flex;
-  justify-content: center;
+}
+
+.team-item {
+  width: 270px;
 }
 
 .team-item:not(:last-child) {
@@ -334,6 +342,7 @@ ul {
 .portfolio-btn {
   padding: 6px 22px;
   margin-bottom: 50px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -359,35 +368,20 @@ ul {
   flex-wrap: wrap;
 }
 
+/* CALC((100% - кол-во маржинов в строке * значение маржина)
+ / кол-во элементов в строке */
+
 .portfolio-item {
-  width: calc((100% - 60px) / 3);
-  margin-right: 30px;
-  margin-bottom: 30px;
-}
-
-.portfolio-item:nth-child(3n + 3) {
-  margin-right: 0;
-}
-
-.portfolio-item:nth-last-child(-n + 3) {
-  margin-bottom: 0;
-}
-*/
-
-/* .portfolio-item {
   width: 370px;
-  margin-bottom: 30px;
+}
+
+.portfolio-item:not(:nth-child(3n)) {
   margin-right: 30px;
-  border-bottom: 1px solid #eeeeee;
 }
 
-.portfolio-item:nth-child(3n + 3) {
-  margin-right: 0;
+.portfolio-item:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
 }
-
-.portfolio-item:nth-last-child(-n + 3) {
-  margin-bottom: 0;
-} */
 
 .portfolio-img {
   margin-bottom: 20px;
